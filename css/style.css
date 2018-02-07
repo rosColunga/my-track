@@ -1,0 +1,190 @@
+/*Estilos generales del documento */
+body {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+/*** Vista de Inicio ***/
+
+/*Estilo vínculos*/
+a {
+  color: lightblue;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: lightgreen;
+}
+
+/*Estilo pie de página*/
+
+footer {
+  padding: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+/*Estilo encabezados*/
+
+h2, h3, h4, h5, h6 {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h3.top-left {
+  position: absolute;
+  top: 1.5em;
+  left: 1.5em;
+}
+
+h3.top-right {
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+}
+
+/*Párrafos*/
+
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#btn-circle {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  border: 2px solid white;
+  border-radius: 100%;
+  font-size: 2.5em;
+  color: white;
+  background: transparent;
+}
+
+#btn-circle:hover, #btn-circle:focus {
+  outline: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#rounded {
+  border-radius: 100%;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0;
+}
+
+.btn-default {
+  border: 1.5px solid purple;
+  color: white;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.btn-default:hover, .btn-default:focus {
+  border: 1px solid purple;
+  outline: none;
+  color: black;
+  background-color: purple;
+}
+
+.info-section {
+  padding-top: 5em;
+}
+
+.light {
+  font-weight: 400;
+}
+
+.red {
+  color: red;
+}
+
+.services-section {
+  width: 100vw;
+  height: 70vh;
+  color: white;
+  background: url(../assets/images/dj-mixer.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  color: white;
+  background: url(../assets/images/live-concert.jpg) no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.start .start-body .page-title {
+  font-size: 2.5em;
+}
+
+.start .start-body .start-text {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  p {
+    margin: 0 0 35px;
+    font-size: 1.3em;
+    line-height: 1.6;
+  }
+  .info-section {
+    padding-top: 8em;
+  }
+  .services-section {
+    padding: 100px 0;
+  }
+  .start {
+    height: 100%;
+    padding: 0;
+  }
+  .start .start-body .page-title {
+    font-size: 100px;
+  }
+  .start .start-body .start-text {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  h3.top-left {
+    font-size: 1.5em;
+    position: absolute;
+    top: 1em;
+    left: .8em;
+    background: rgba(0, 0, 0, 0.08);
+  }
+  h3.top-right {
+    font-size: 1.5em;
+    position: absolute;
+    top: 1em;
+    right: .8em;
+    background: rgba(0, 0, 0, 0.08);
+  }
+}
