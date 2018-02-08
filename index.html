@@ -24,9 +24,7 @@
   <!-- Inicio / Start -->
   <header class="start">
     <div class="start-body">
-      <h3 class="top-left"><a class="red" href="#"><i class="fa fa-backward"></i>Menú</a></h3>
-      <h3 class="top-right"><a class="red" href="#" alt="Entrar"><i class="fa fa-sign-in"></i></a></h3>
-
+      <h3 class="top-right"><a class="red" data-target="#myBtn" data-toggle="modal" type="button">Entrar <i class="fa fa-sign-in"></i></a></h3>
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
@@ -44,7 +42,7 @@
   <section id="info" class="container info-section text-center">
     <div class="row">
       <div class="col-lg-12">
-        <h2 class="my-4">¿Qué hacemos?</h2>
+        <h2>¿Qué hacemos?</h2>
       </div>
       <div class="col-lg-4 col-sm-6 text-center mb-4">
         <img id="rounded" class="img-fluid d-block mx-auto" src="http://www.dummyimage.com/200x200" alt="">
@@ -71,7 +69,7 @@
         <div class="col-lg-8 col-lg-offset-2">
           <h2>¿Listo para empezar?</h2>
           <p>No esperes más y comparte tu pasión por la música</p>
-          <a href="#" class="btn btn-default btn-lg text-uppercase">Crear cuenta</a>
+          <a data-target="#myBtn" data-toggle="modal" type="button"class="btn btn-default btn-lg text-uppercase">Crear cuenta</a>
         </div>
       </div>
     </div>
@@ -83,6 +81,41 @@
       <p>FOOTER © 2018</p>
     </div>
   </footer>
+
+  <!--MODAL inicio de sesión-->
+<div class="modal fade" id="myBtn" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-dialog">
+      <!-- Contenido-->
+      <div class="modal-content modal1-background">
+        <div class="modal-header" style="padding-top:35px;">
+          <button style="font-size:2.5em" type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="text-center">Inicia Sesión</h3>
+        </div>
+        <div class="modal-body gray-background" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="username"><span class="glyphicon glyphicon-user"></span> Nombre</label>
+              <input type="text" class="form-control" id="username" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="password"><span class="glyphicon glyphicon-eye-open"></span> Contraseña</label>
+              <input TYPE="password" type="number" type="text"class="form-control" id="password" placeholder="Tu contraseña">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Recuérdame</label>
+            </div>
+            <button type="button" class="btn btn-block disabled nextJs"><span class="glyphicon glyphicon-off"></span> Entrar</button>
+            <button type="button" id="buttonFacebook" class="btn btn-block enabled">Desde Facebook</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <small>¿Olvidaste tu <a href="#">contraseña?</a></small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- jQuery -->
   <script src="vendor/jquery/jquery.js"></script>
