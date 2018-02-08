@@ -1,4 +1,5 @@
-/*Estilos generales del documento */
+/*Estilos generales del proyecto */
+
 body {
   width: 100%;
   height: 100%;
@@ -15,6 +16,7 @@ html {
 /*** Vista de Inicio ***/
 
 /*Estilo vínculos*/
+
 a {
   color: lightblue;
   transition: all 0.2s ease-in-out;
@@ -63,12 +65,16 @@ p {
   line-height: 1.5;
 }
 
+/*Fondo negro*/
+
 section.bg-black {
   background-color: black;
   height: 550px;
   margin: 0;
   padding: 10px;
 }
+
+/*Botones*/
 
 #btn-circle {
   width: 70px;
@@ -86,6 +92,11 @@ section.bg-black {
   outline: none;
   color: white;
   background: rgba(255, 255, 255, 0.1);
+}
+
+#buttonFacebook {
+  background: #4267B2;
+  color: white
 }
 
 #myBtn {
@@ -118,6 +129,8 @@ section.bg-black {
   color: black;
   background-color: purple;
 }
+
+/*Sección central con información*/
 
 .info-section {
   padding-top: 5em;
@@ -203,7 +216,7 @@ section.bg-black {
   }
 }
 
-/*** ***/
+/*** Menú Wrapper lateral (views) ***/
 
 body#wrapper {
   background: white;
@@ -250,6 +263,11 @@ body#wrapper {
   color: black;
 }
 
+.nextJs {
+  background-color: green;
+  color: white;
+}
+
 .map {
   height: 400px;
   margin: 2vh 1vw;
@@ -260,8 +278,7 @@ body#wrapper {
   color: #ffff;
 }
 
-
-/* Barra lateral */
+/* Estilos Barra */
 
 .sidebar-nav {
   position: absolute;
@@ -328,5 +345,347 @@ body#wrapper {
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0;
+  }
+}
+
+/*** Vista "artists" ***/
+
+.art-title {
+  color: #231f20;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.artist-data {
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.artst-pic {
+  width: 33%;
+  position: relative;
+}
+
+.artst-pic span a {
+  color: #fff;
+  font-size: 16px;
+  display: none;
+}
+
+.artst-pic span.artst-like {
+  position: absolute;
+  left: 11%;
+  bottom: 10px;
+}
+
+.artst-pic span.artst-share {
+  position: absolute;
+  left: 46%;
+  bottom: 10px;
+}
+
+.artst-pic span.artst-plus {
+  position: absolute;
+  right: 9%;
+  bottom: 10px;
+}
+
+.artst-prfle {
+  width: 63%;
+}
+
+.artst-prfle span.artst-sub {
+  font-size: 15px;
+  color: #bbb;
+  float: left;
+  width: 100%;
+  font-weight: normal;
+  padding: 5px 0;
+}
+
+.artst-prfle span.artst-sub span.byname {
+  font-weight: 700;
+  color: #aaa;
+}
+
+.artst-prfle span.artst-sub span.daysago {
+  float: right;
+  font-size: 12px;
+}
+
+.counter-tab {
+  float: left;
+  width: 100%;
+  padding-top: 45px;
+}
+
+.counter-tab div {
+  float: left;
+  width: 33%;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.bot-links {
+  float: left;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.bot-links a {
+  display: inline-block;
+  padding: 5px;
+  background: #ccc;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #9c9c9c;
+  text-decoration: none;
+}
+
+span.play-icon {
+  position: absolute;
+  left: 31%;
+  top: 32%;
+  display: none;
+}
+
+.artst-pic:hover img.play-icon, .artst-pic:hover span a {
+  display: block;
+}
+
+/***View Marketplace****/
+
+.thumbnail img {
+  width: 100%;
+}
+
+.ratings {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #d17581;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+  color: #333;
+}
+
+/*** Eventos ***/
+
+.flag {
+  width: 50px;
+}
+
+h2 {
+  font-size: 200%;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.event-list .info .row {
+  padding-left: 10px;
+  font-size: 80%;
+}
+
+.event-list {
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.event-list>li {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px rgb(51, 51, 51);
+  box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+  padding: 0px;
+  margin: 0px 0px 20px;
+}
+
+.event-list>li>time {
+  display: inline-block;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(197, 44, 102);
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.event-list>li:nth-child(even)>time {
+  background-color: rgb(165, 82, 167);
+}
+
+.event-list>li>time>span {
+  display: none;
+}
+
+.event-list>li>time>.day {
+  display: block;
+  font-size: 56pt;
+  font-weight: 100;
+  line-height: 1;
+}
+
+.event-list>li time>.month {
+  display: block;
+  font-size: 24pt;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.event-list>li>img {
+  width: 100%;
+}
+
+.event-list>li>.info {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.event-list>li>.info>.title {
+  font-size: 17pt;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.event-list>li>.info>.desc {
+  font-size: 13pt;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.event-list>li>.info>ul, .event-list>li>.social>ul {
+  display: table;
+  list-style: none;
+  margin: 10px 0px 0px;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.event-list>li>.social>ul {
+  margin: 0px;
+}
+
+.event-list>li>.info>ul>li, .event-list>li>.social>ul>li {
+  display: table-cell;
+  cursor: pointer;
+  color: rgb(30, 30, 30);
+  font-size: 11pt;
+  font-weight: 300;
+  padding: 3px 0px;
+}
+
+.event-list>li>.info>ul>li>a {
+  display: block;
+  width: 100%;
+  color: rgb(30, 30, 30);
+  text-decoration: none;
+}
+
+.event-list>li>.social>ul>li {
+  padding: 0px;
+}
+
+.event-list>li>.social>ul>li>a {
+  padding: 3px 0px;
+}
+
+.event-list>li>.info>ul>li:hover, .event-list>li>.social>ul>li:hover {
+  color: rgb(30, 30, 30);
+  background-color: rgb(200, 200, 200);
+}
+
+.facebook a, .twitter a, .google-plus a {
+  display: block;
+  width: 100%;
+  color: rgb(75, 110, 168) !important;
+}
+
+.twitter a {
+  color: rgb(79, 213, 248) !important;
+}
+
+.google-plus a {
+  color: rgb(221, 75, 57) !important;
+}
+
+.facebook:hover a {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(75, 110, 168) !important;
+}
+
+.twitter:hover a {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(79, 213, 248) !important;
+}
+
+.google-plus:hover a {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(221, 75, 57) !important;
+}
+
+@media (min-width: 768px) {
+  .event-list>li {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 120px;
+    padding: 0px;
+  }
+  .event-list>li>time, .event-list>li>img {
+    display: inline-block;
+  }
+  .event-list>li>time, .event-list>li>img {
+    width: 120px;
+    float: left;
+  }
+  .event-list>li>.info {
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+  }
+  .event-list>li>time, .event-list>li>img {
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .event-list>li>.info {
+    position: relative;
+    height: 120px;
+    text-align: left;
+    padding-right: 40px;
+  }
+  .event-list>li>.info>.title, .event-list>li>.info>.desc {
+    padding: 0px 10px;
+  }
+  .event-list>li>.info>ul {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  .event-list>li>.social {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+    width: 40px;
+  }
+  .event-list>li>.social>ul {
+    border-left: 1px solid rgb(230, 230, 230);
+  }
+  .event-list>li>.social>ul>li {
+    display: block;
+    padding: 0px;
+  }
+  .event-list>li>.social>ul>li>a {
+    display: block;
+    width: 40px;
+    padding: 10px 0px 9px;
   }
 }
