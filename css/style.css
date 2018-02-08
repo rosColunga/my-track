@@ -476,14 +476,18 @@ span.play-icon {
 
 /*** Eventos ***/
 
-.flag {
-  width: 50px;
-}
-
-h2 {
+h2.title {
   font-size: 200%;
   margin-top: 0px;
   font-weight: bold;
+  margin-top: 3%;
+}
+
+h4.sub-t {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  color: darkblue;
+  margin-left: 3%;
 }
 
 .event-list .info .row {
@@ -510,14 +514,14 @@ h2 {
   display: inline-block;
   width: 100%;
   color: rgb(255, 255, 255);
-  background-color: rgb(197, 44, 102);
+  background-color: lightgreen;
   padding: 5px;
   text-align: center;
   text-transform: uppercase;
 }
 
 .event-list>li:nth-child(even)>time {
-  background-color: rgb(165, 82, 167);
+  background-color: purple;
 }
 
 .event-list>li>time>span {
