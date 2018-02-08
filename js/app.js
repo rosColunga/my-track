@@ -58,7 +58,7 @@ function authentication(provider) {
   });
 }
 
-/*$("#buttonGoogle").click(function (){
+$("#buttonGoogle").click(function () {
   authGoogle();
 });
 
@@ -74,7 +74,7 @@ function authentication(provider) {
       // The signed-in user info.
       var user = result.user;
       localStorage.setItem("nombre", user.displayName);
-      window.location.href = "principal.html";
+      window.location.href = "views/newsfeed.html";
     })
   .catch(function(error) {
     // Handle Errors here.
@@ -84,4 +84,4 @@ function authentication(provider) {
     var credential = error.credential;
 
   });
-}*/
+};
