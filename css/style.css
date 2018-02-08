@@ -153,6 +153,14 @@ section.bg-black {
   background-size: cover;
 }
 
+
+.thumb{
+     height: 300px;
+     border: 1px solid #000;
+     margin: 10px 5px 0 0;
+     display:block;
+}
+
 .start {
   display: flex;
   justify-content: center;
