@@ -152,6 +152,15 @@ section.bg-black {
   background-position: center center;
   background-size: cover;
 }
+.services-changes {
+  width: 100vw;
+  height: 110%;
+  color: white;
+  background: url(../assets/images/concert-merch.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 
 .start {
   display: flex;
