@@ -8,9 +8,9 @@ $(document).ready(function() {
 
   /* Validación, habilitación de nextButton*/
   $("#password").keypress(function() {
-    if ((this.value).length === 3) {
+    if ((this.value).length === 7) {
       nextButton.removeClass('disabled');
-    } else if ((this.value).length !== 4) {
+    } else if ((this.value).length !== 8) {
       nextButton.addClass('disabled');
     }
   });
