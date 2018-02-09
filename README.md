@@ -54,6 +54,9 @@ En esta etapa se realizan en base a los requerimientos, los wireframes en versi�
 **Tarin Ayala**
 
 **Diana Colmenero**
+- Mi contribución para nuesta app ***my-track*** consistió en la investigación del Api de Spotify y ticketmaster. Logrando obtener el Widget de los eventos mas recientes.
+- Contribuí también con las funciones para el inicio de sesión con Facebook, Google, lograr que apareciera ese nombre en la vista del menú y cerrar sesión de manera correcta.
+- Además ayude a mi compañera a resolver algunos conflictos con la función para subir imagenes.
 
 **Rosa Colunga**
 #### Mi contribución dentro del trabajo en equipo fue
