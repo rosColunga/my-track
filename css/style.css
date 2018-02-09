@@ -151,6 +151,14 @@ p {
   background-position: center center;
   background-size: cover;
 }
+
+.services-profile {
+  width: 100vw;
+  background: url(../assets/images/mic.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 .services-changes {
   width: 100vw;
   height: 110%;
@@ -162,11 +170,9 @@ p {
 
 /***Image uploader***/
 .thumb{
-     height: 300px;
-     max-width: 350px;
-     border: 1px solid #000;
-     margin: 10px 5px 0 0;
-     display:block;
+   height: 300px;
+   border: 1px solid #000;
+   margin: 10px 5px 0 0;
 }
 
 .start {
@@ -201,6 +207,9 @@ p {
     padding-top: 8em;
   }
   .services-section {
+    padding: 80px 0;
+  }
+  .services-profile {
     padding: 80px 0;
   }
   .start {

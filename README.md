@@ -49,7 +49,32 @@ En esta etapa se realizan en base a los requerimientos, los wireframes en versi�
 
 ![](assets/images/mobile-sketch.JPG)
 
-## Maquetación
-Se realiza primera etapa de maquetación.
+## Trabajo en equipo
 
-https://roscolunga.github.io/my-track/
+**Tarin Ayala**
+
+**Diana Colmenero**
+
+**Rosa Colunga**
+Mi contribución dentro del trabajo en equipo fue
+- Dentro del proceso de *planeación*, el planteamiento de la idea que posteriormente desarrollamos más ampliamente en equipo.
+- Proceso de *diseño*, realizando bocetos de la interfaz (wireframes), arquitectura de la información, elección de paleta de color.
+- *Front-end*. Maquetación básica de la web-page. Vistas: Inicio, parte incial de *newsfeed*, artistas y perfil.
+
+**Carmen Vega**
+
+## Resultados
+
+**Inicio de Sesión**
+
+![](assets/images/inicio-mt.gif)
+
+**Aristas y Marketplace**
+
+![](assets/images/artists-mt.gif)
+
+**Responsive Web Design**
+
+![](assets/images/desktop-mt.jpg)
+
+![](assets/images/mob-mt.jpg)
