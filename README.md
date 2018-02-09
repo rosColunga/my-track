@@ -56,12 +56,14 @@ En esta etapa se realizan en base a los requerimientos, los wireframes en versi�
 **Diana Colmenero**
 
 **Rosa Colunga**
-Mi contribución dentro del trabajo en equipo fue
+#### Mi contribución dentro del trabajo en equipo fue
 - Dentro del proceso de *planeación*, el planteamiento de la idea que posteriormente desarrollamos más ampliamente en equipo.
 - Proceso de *diseño*, realizando bocetos de la interfaz (wireframes), arquitectura de la información, elección de paleta de color.
 - *Front-end*. Maquetación básica de la web-page. Vistas: Inicio, parte incial de *newsfeed*, artistas y perfil.
 
 **Carmen Vega**
+- Mi contribución para ***my-track*** consistió en la investigación del Api de Spotify y last.fm para eventos de música.
+- Contribuí también en la maquetación de las vistas marketplace y newsfeed
 
 ## Resultados
 
