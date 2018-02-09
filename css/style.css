@@ -67,11 +67,10 @@ p {
 
 /*Fondo negro*/
 
-section.bg-black {
+.bg-black {
   background-color: black;
   height: 550px;
-  margin: 0;
-  padding: 10px;
+  /*margin: 0;*/
 }
 
 /*Botones*/
@@ -161,13 +160,6 @@ section.bg-black {
   background-size: cover;
 }
 
-.services-profile {
-  width: 100vw;
-  background: url(../assets/images/mic.jpg) no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
 /***Image uploader***/
 .thumb{
      height: 300px;
@@ -209,9 +201,6 @@ section.bg-black {
     padding-top: 8em;
   }
   .services-section {
-    padding: 80px 0;
-  }
-  .services-profile {
     padding: 80px 0;
   }
   .start {
@@ -505,4 +494,74 @@ span.play-icon {
 
 div>w-width {
   width: 100vw;
+}
+/* estilos marketplace */
+.title-marketplace{
+  margin-top: 2em;
+}
+.vinyl-title {
+  color: purple;
+  text-transform: capitalize;
+  font-size: 2em;
+}
+.vinyl-txt {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.btn-add {
+  color: purple;
+  border-radius: 15px;
+}
+#btn-success {
+  color: white;
+  background-color: purple;
+  border-color: purple;
+  border-radius: 15px;
+}
+#active-tshirt {
+  background-color: purple;
+  color: white;
+  font-size: 1em;
+}
+/* estilos friend activity */
+.title-panel{
+  border-bottom: .6px solid #cccccc;
+  margin: 10px 4px;
+  padding: 5px;
+}
+.title-activity{
+  margin-top:15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.avatar-pic {
+  height: 50px;
+}
+.activity-panel {
+  padding: 15px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.btn-artist-view {
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.txt-btn-artist {
+  font-weight: 600;
 }

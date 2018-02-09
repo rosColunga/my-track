@@ -66,14 +66,57 @@
             <div class="row">
 
               <div class="col-md-3">
-                <p class="lead">Shop Name</p>
-                <div class="list-group">
-                  <a href="#" class="list-group-item active">T-shirt</a>
-                  <a href="#" class="list-group-item">Vinil</a>
-                  <a href="#" class="list-group-item">Tickets</a>
+
+                <h5 class="lead title-marketplace">Marketplace de eventos</h5>
+                <div class="">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <button type="button" class="btn btn-default btn-lg btn-artist-view">
+                      <a href="#" class="btn disabled">T-shirt</a>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <button type="button" class="btn btn-default btn-lg btn-artist-view"  id="active-tshirt">
+                      <a href="#modal-vinyl" class= "btn" data-toggle="modal">Vinyl LP</a>
+                      </button>
+                    </div>
+                  </div>
+
+                    <div class="modal fade" id="modal-vinyl">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">font-weight-bold
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h5 class="modal-title vinyl-title">Vinyl Records</h5>
+                          </div>
+                            <!-- Contenido de ventana vinyl -->
+                            <div class="modal-body">
+                              <h4 class="vinyl-txt">Man of the Woods</h4>
+                              <img class="img-responsive" src="../assets/images/vinyl-bestseller.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <p class="vinyl-txt">Justin Timberlake</p>
+                              <div class="ratings"></p>
+                                <p>
+                                  <span class="glyphicon glyphicon-star"></span>
+                                  <span class="glyphicon glyphicon-star"></span>
+                                  <span class="glyphicon glyphicon-star"></span>
+                                  <span class="glyphicon glyphicon-star"></span>
+                                  <span class="glyphicon glyphicon-star-empty"></span> 4.0 stars
+                                </p>
+                              </div>
+                              <p class="vinyl-txt">Includes FREE MP3 version of this album. </p>
+                              <br>
+                              <button type="button" class="btn btn-default btn-add" data-dismiss="modal">Agregrar al carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div>
-
+                <br>
               <div class="col-md-9">
                 <div class="thumbnail">
                   <img class="img-responsive" src="../assets/images/merch-01.jpg" alt="">
@@ -101,7 +144,7 @@
                 <div class="well black">
 
                   <div class="text-right">
-                    <a class="btn btn-success">Leave a Review</a>
+                    <a class="btn btn-success" id="btn-success">Leave a Review</a>
                   </div>
 
                   <hr>
@@ -150,17 +193,18 @@
               </div>
 
 
-              <div class="col-md-9">
+              <div class="col-md-offset-3 col-md-9">
                 <div class="thumbnail">
                   <img class="img-responsive" src="../assets/images/merch-03.png" alt="">
                   <div class="caption-full">
                     <h4 class="pull-right">$32.00</h4>
-                    <h4><a href="#">Nothing more stuff</a></h4>
+                    <h4><a href="#">Eric Church</a></h4>
 
                     <p>See more snippets like these online store reviews at <a target="_blank" href="https://www.amazon.com.mx/"> Amazon music https://www.amazon.com.mx/</a>.</p>
-                    <p>Want to make these reviews work? Check out</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <p>Material : Premium 100% Biowash Cotton Sleeve</p>
+                    <p>Colour : Black, Vibrant Colours Classy Formal and Casual wear. Please refer to the
+                      "Size Chart" to select your Size Care instructions: Do not bleach. Dry in shade. Wash with similar colors. Machine wash.
+                    </p>
                   </div>
                   <div class="ratings">
                     <p class="pull-right">4 reviews</p>
@@ -177,7 +221,7 @@
                 <div class="well black">
 
                   <div class="text-right">
-                    <a class="btn btn-success">Leave a Review</a>
+                    <a class="btn btn-success" id="btn-success">Leave a Review</a>
                   </div>
 
                   <hr>
@@ -188,9 +232,9 @@
                       <span class="glyphicon glyphicon-star"></span>
                       <span class="glyphicon glyphicon-star"></span>
                       <span class="glyphicon glyphicon-star"></span>
-                      <span class="glyphicon glyphicon-star-empty"></span> Anonymous
+                      <span class="glyphicon glyphicon-star"></span> Tanhia Pepper
                       <span class="pull-right">10 days ago</span>
-                      <p>This product was great in terms of quality. I would definitely buy another!</p>
+                      <p>Increíble. La playera en excelente condición, la impresión de alta calidad. Definitivamente una excelente adquisición; llegó en tiempo y forma.</p>
                     </div>
                   </div>
 
@@ -226,17 +270,18 @@
 
               </div>
 
-              <div class="col-md-9">
+              <div class=" col-md-offset-3 col-md-9">
                 <div class="thumbnail">
                   <img class="img-responsive" src="../assets/images/merch-02.jpg" alt="">
                   <div class="caption-full">
                     <h4 class="pull-right">$50.00</h4>
-                    <h4><a href="#">White T-shirt</a></h4>
+                    <h4><a href="#">White T-shirt / Pusha T</a></h4>
 
                     <p>See more snippets like these online store reviews at <a target="_blank" href="https://www.amazon.com.mx/"> Amazon music https://www.amazon.com.mx/</a>.</p>
-                    <p>Want to make these reviews work? Check out</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <p>Material : Premium 100% Biowash Cotton Sleeve</p>
+                    <p>Colour : Black, Vibrant Colours Classy Formal and Casual wear. Please refer to the
+                      "Size Chart" to select your Size Care instructions: Do not bleach. Dry in shade. Wash with similar colors. Machine wash.
+                    </p>
                   </div>
                   <div class="ratings">
                     <p class="pull-right">4 reviews</p>
@@ -253,7 +298,7 @@
                 <div class="well black">
 
                   <div class="text-right">
-                    <a class="btn btn-success">Leave a Review</a>
+                    <a class="btn btn-success" id="btn-success">Leave a Review</a>
                   </div>
 
                   <hr>
@@ -266,7 +311,7 @@
                       <span class="glyphicon glyphicon-star"></span>
                       <span class="glyphicon glyphicon-star-empty"></span> Anonymous
                       <span class="pull-right">10 days ago</span>
-                      <p>This product was great in terms of quality. I would definitely buy another!</p>
+                      <p>Todo bien. Las fotos me ayudaron a tomar una buena decisión. El producto me quedó bien, tal cual lo esperaba.</p>
                     </div>
                   </div>
 
@@ -292,9 +337,9 @@
                       <span class="glyphicon glyphicon-star"></span>
                       <span class="glyphicon glyphicon-star"></span>
                       <span class="glyphicon glyphicon-star"></span>
-                      <span class="glyphicon glyphicon-star-empty"></span> Anonymous
+                      <span class="glyphicon glyphicon-star-empty"></span> Ramiro Ruiz
                       <span class="pull-right">15 days ago</span>
-                      <p>I've seen some better than this, but not at this price. I definitely recommend this item.</p>
+                      <p>buena calidad y dieño , solo que las mangas vienen demasiado reducidas. Fuera de eso todo perfecto y en forma</p>
                     </div>
                   </div>
 
