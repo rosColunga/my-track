@@ -75,6 +75,6 @@ Mi contribución dentro del trabajo en equipo fue
 
 **Responsive Web Design**
 
-![](assets/images/desktop-mt.jpg)
+![](assets/images/desktop-mt.JPG)
 
-![](assets/images/mob-mt.jpg)
+![](assets/images/mob-mt.JPG)
