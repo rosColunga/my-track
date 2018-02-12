@@ -52,7 +52,10 @@ En esta etapa se realizan en base a los requerimientos, los wireframes en versi�
 ## Trabajo en equipo
 
 **Tarin Ayala**
-
+####  Mi Contrubución en nuestra aplicación my track:
+Proceso de planeación, acciones estimadas con el fin de obtener un objetivo.
+Investigación de API.
+Prtoceso de desarrollo: Funcionalidad de agregar foto, agragar comentario.
 **Diana Colmenero**
 - Mi contribución para nuesta app ***my-track*** consistió en la investigación del Api de Spotify y ticketmaster. Logrando obtener el Widget de los eventos mas recientes.
 - Contribuí también con las funciones para el inicio de sesión con Facebook, Google, lograr que apareciera ese nombre en la vista del menú y cerrar sesión de manera correcta.
