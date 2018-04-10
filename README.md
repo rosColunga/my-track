@@ -1,7 +1,7 @@
 # My Track
 Como parte del *_Challenge Hackathon_*, se desarrolla **My Track**, red social que busca generar una comunidad en torno a la experiencia de los usuarios en conciertos. Desde la búsqueda y adquisición de entradas, hasta la posibilidad de compartir momentos entiempo real, ubicaciones visitadas, rankear y comentar así como realizar la compra de souvenirs.
 
-![Aplicación en iphone X](assets/images/artists-mockup.jpg)
+![artists-mockup](https://user-images.githubusercontent.com/32855963/38578593-00756da4-3cca-11e8-9d5d-32c9f507de0d.jpg)
 
 ![Aplicación en imac](assets/images/imac-mtrack.jpg)
 
