@@ -1,7 +1,13 @@
 # My Track
-Como parte del **_Challenge Hackathon_** se requiere plantear una plataforma, usando un API. La temática, es en torno a: *El entretenimiento*.
+Como parte del *_Challenge Hackathon_*, se desarrolla **My Track**, red social que busca generar una comunidad en torno a la experiencia de los usuarios en conciertos. Desde la búsqueda y adquisición de entradas, hasta la posibilidad de compartir momentos entiempo real, ubicaciones visitadas, rankear y comentar así como realizar la compra de souvenirs.
 
-## Planeación
+![Aplicación en iphone X](assets/images/artists-mockup.jpg)
+
+![Aplicación en imac](assets/images/imac-mtrack.jpg)
+
+## Proceso
+
+### Planeación
 
 TRELLO: https://trello.com/b/AiykK3Rx/desarrollo
 
@@ -12,10 +18,6 @@ Como primera actividad, se genera una lluvia de ideas en el equipo sobre temáti
 3. Conciertos filtrados por preferencias musicales
 
 Para poder elegir un tema a desarrollar dentro del primer día de trabajo, realizamos una breve investigación de qué API sería pertinente en cada una de las opciones, y qué *Propuesta de valor* tendría cada una.
-
-
-
-![Lluvia de ideas](assets/images/ideas.JPG)
 
 Al exponer los diferentes caminos y habiendo debatido sobre las necesidades que resolvían, el equipo optó por elegir la tercera opción, la cual se trata de forma más profunda en una plataforma que filtra los próximos eventos según tus preferencias musicales.
 
@@ -64,6 +66,7 @@ Prtoceso de desarrollo: Funcionalidad de agregar foto, agregar comentario.
 
 **Rosa Colunga**
 ##### Mi contribución dentro del trabajo en equipo fue
+- Coordinación y dirección del equipo.
 - Dentro del proceso de *planeación*, el planteamiento de la idea que posteriormente desarrollamos más ampliamente en equipo.
 - Proceso de *diseño*, realizando bocetos de la interfaz (wireframes), arquitectura de la información, elección de paleta de color.
 - *Front-end*. Maquetación básica de la web-page. Vistas: Inicio, parte incial de *newsfeed*, artistas y perfil.
@@ -74,16 +77,21 @@ Prtoceso de desarrollo: Funcionalidad de agregar foto, agregar comentario.
 
 ## Resultados
 
+**Responsive Web Design**
+El sitio está habilitado para mostrarse en todos los tamaños de dispositivos, habiendo hecho uso del Framework Bootstrap para facilitar este requerimiento.
+
+![](assets/images/mtrack-mockup.jpg)
+
 **Inicio de Sesión**
+Se cuenta con 3 diferentes opciones de ingreso:
+- Nombre y contraseña 
+- Vinculando cuenta de Facebook
+- Por medio de la cuenta de Google
+
+Por medio de la aplicación de Firebase, se logra mostrar los datos del usuario de inicio de sesión.
 
 ![](assets/images/inicio-mt.gif)
 
 **Aristas y Marketplace**
 
 ![](assets/images/artists-mt.gif)
-
-**Responsive Web Design**
-
-![](assets/images/desktop-mt.JPG)
-
-![](assets/images/mob-mt.JPG)
